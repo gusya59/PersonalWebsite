@@ -1,0 +1,17 @@
+.contactsGrid {
+  width: 60% !important;
+  float: left !important;
+  margin-left: 10% !important;
+  position: relative !important;
+  margin-top: 5% !important;
+}
+
+.contactsImage {
+  width: 30% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .contactsGrid {
+    width: 75% !important;
+  }
+}

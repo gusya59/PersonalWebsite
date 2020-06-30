@@ -1,0 +1,55 @@
+.welcome {
+  background: url("../../images/welcomeBackground.jpeg");
+  height: 100vh;
+}
+.about {
+  padding-top: 5vh;
+}
+
+.contacts {
+  background-color: #e8e8e8;
+  min-height: 300px;
+  margin-top: -5vh !important;
+  margin-bottom: -5vh !important;
+}
+/* .footer{
+
+} */
+
+.divider {
+  position: relative;
+  margin-top: 5vh;
+  height: 1px;
+  margin-bottom: 5vh;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(54, 54, 54),
+    transparent
+  );
+}
+
+/* @media screen and (min-width: 1800px) {
+  .portfolio,
+  .contacts {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio,
+  .contacts {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+} */

@@ -1,0 +1,24 @@
+.welcomeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 15vh;
+}
+
+.downButton {
+  position: absolute;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  bottom: 5%;
+}
+
+@media screen and (max-width: 500px) {
+  .welcomeText {
+    font-size: 10vh;
+  }
+}
