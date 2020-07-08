@@ -10,7 +10,7 @@ import "./Portfolio.css";
 export default class Portfolio extends Component {
   render() {
     return (
-      <Container fluid id="portfolio">
+      <Container fluid>
         <Header className="portfolioTitle" as="h1">
           Check the magic
         </Header>

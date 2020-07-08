@@ -6,7 +6,7 @@ import "./About.css";
 export default class About extends Component {
   render() {
     return (
-      <Container text className="about" id="about">
+      <Container text className="about">
         <Grid stackable columns={2}>
           <Grid.Row>
             <Grid.Column>

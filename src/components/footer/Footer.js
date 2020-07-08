@@ -6,6 +6,7 @@ export default class Footer extends Component {
     return (
       <Container fluid textAlign="center">
         <Header as="h3">@2020 Copyrigth: Alina Gusev</Header>
+        <br></br>
       </Container>
     );
   }

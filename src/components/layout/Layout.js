@@ -18,18 +18,18 @@ export default class Layout extends Component {
         <div className="welcome">
           <Welcome />
         </div>
-        <div className="about">
+        <div className="about" id="about">
           <About />
         </div>
-        <div className="divider div-transparent"></div>
+        <div className="divider div-transparent" id="portfolio"></div>
         <div className="portfolio">
           <Portfolio />
         </div>
-        <div className="divider div-transparent"></div>
+        <div className="divider div-transparent" id="additionalInfo"></div>
         <div className="additionalInfo">
           <AdditionalInfo />
         </div>
-        <div className="divider div-transparent"></div>
+        <div className="divider div-transparent" id="contacts"></div>
         <div className="contacts">
           <Contacts />
         </div>

@@ -15,13 +15,13 @@ import contactsImg from "../../images/contactsImage.jpg";
 export default class Contacts extends Component {
   render() {
     return (
-      <Container fluid id="contacts">
+      <Container fluid>
         <Grid className="contactsGrid">
           <Grid.Row>
             <Header as="h1">Let's create some magic together!</Header>
           </Grid.Row>
-          <Grid.Row>
-            <Grid.Column textAlign={"center"} width={10}>
+          <Grid.Row className="contactsText">
+            <Grid.Column width={10}>
               <Grid.Row>
                 Feel free to reach out if you're looking for a developer, have a
                 question, or just want to connect.
@@ -38,7 +38,7 @@ export default class Contacts extends Component {
                 </a>
               </Grid.Row>
             </Grid.Column>
-            <Grid.Column textAlign={"center"} width={6}>
+            <Grid.Column textAlign={"center"} width={5}>
               <div className="icons">
                 <Button
                   circular

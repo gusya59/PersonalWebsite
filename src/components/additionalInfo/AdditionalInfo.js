@@ -8,8 +8,10 @@ import lecture1 from "../../images/lectures/1.jpg";
 class AdditionalInfo extends Component {
   render() {
     return (
-      <Container fluid className="additionalInfo" id="additionalInfo">
-        <Header as="h1">You can also find me</Header>
+      <Container fluid className="additionalInfo">
+        <Header as="h1" className="addInfoHeader">
+          You can also find me
+        </Header>
 
         <div className="infoBlock">
           <Header as="h4">

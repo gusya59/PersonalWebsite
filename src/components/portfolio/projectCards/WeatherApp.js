@@ -10,7 +10,7 @@ class WeatherApp extends Component {
         <Card.Content>
           <Card.Header>Weather Application</Card.Header>
           <Card.Meta>
-            <span className="date">React, JS, HTML, CSS</span>
+            <span className="date">React, JavaScript, HTML, CSS</span>
           </Card.Meta>
           <Card.Meta>
             <span className="date">Google Geolocation API</span>

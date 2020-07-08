@@ -8,7 +8,7 @@
 
 .contacts {
   background-color: #e8e8e8;
-  min-height: 300px;
+  min-height: 320px;
   margin-top: -5vh !important;
   margin-bottom: -5vh !important;
 }
@@ -39,17 +39,8 @@
   );
 }
 
-/* @media screen and (min-width: 1800px) {
-  .portfolio,
+@media screen and (max-width: 360px) {
   .contacts {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    min-height: 340px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .portfolio,
-  .contacts {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-} */
